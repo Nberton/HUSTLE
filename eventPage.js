@@ -1,4 +1,4 @@
-chrome.runtime.onInstalled.addListener(function initializeBadge(){
+chrome.runtime.onInstalled.addListener(function(){
 	window.alert("It's Business Time");
 });
 /*
