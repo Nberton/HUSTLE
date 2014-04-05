@@ -5,3 +5,6 @@ function submit(){
     //window.location.href = "/home/nate/Dan's stuff/tuzag/Hack-a-Thon/HUSTLE.crx"
   }
 }
+function badge(){
+  
+}
