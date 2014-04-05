@@ -8,7 +8,7 @@
  *
  * @type {string}
  */
-var QUERY = 'kittens';
+var QUERY = 'cities';
 
 var kittenGenerator = {
   /**
