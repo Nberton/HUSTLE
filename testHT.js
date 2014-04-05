@@ -5,6 +5,13 @@ function submit(){
     //window.location.href = "/home/nate/Dan's stuff/tuzag/Hack-a-Thon/HUSTLE.crx"
   }
 }
-function badge(){
-  
-}
+function badge(){	
+  var BadgeID= "SPARKYBOOMMAN";
+  if (!BadgeID){
+  	message('Error: No badege identified');
+  	return
+  }	
+  localStorage.setItem('BadgeID', BadgeID);
+  window.alert(localStorage.getItem('BadgeID'));
+  //chrome.storage.sync.set({'badgeID': BadgeID}, function(){window.alert('Badge was save');});
+  }
