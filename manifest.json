@@ -10,7 +10,5 @@
   },
   "permissions": [
     "storage"
-    "https://secure.flickr.com/"
-    "storage"
   ]
 }
