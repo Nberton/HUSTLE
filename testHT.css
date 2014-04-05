@@ -1,3 +1,9 @@
-submit{
-  
+#submit{
+  margin-left: 150px;
+}
+#selection{
+  margin-left: 150px;
+}
+#selection #chrome{
+  text-align: center;
 }
