@@ -1,4 +1,4 @@
-chrome.runtime.onInstalled.addListener(function(){
+chrome.runtime.onInstalled.addListener(function(details){
 	window.alert("It's Business Time");
 });
 /*
