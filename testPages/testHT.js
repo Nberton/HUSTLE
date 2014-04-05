@@ -14,4 +14,4 @@ function badge(){
   localStorage.setItem('BadgeID', BadgeID);
   window.alert(localStorage.getItem('BadgeID'));
   //chrome.storage.sync.set({'badgeID': BadgeID}, function(){window.alert('Badge was save');});
-  }
+}
