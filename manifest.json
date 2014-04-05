@@ -8,6 +8,9 @@
     "default_icon": "tuzag_icon.jpg",
     "default_popup": "popup.html"
   },
+  "background": {
+    "scripts":["eventPage.js"]
+    },
   "permissions": [
     "storage",
     "webRequest"
