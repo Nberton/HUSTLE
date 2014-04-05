@@ -1,1 +1,1 @@
-chrome.runtime.onInstalled.initializeBadge();
+chrome.runtime.onInstalled.addListener(function initializeBadge());
