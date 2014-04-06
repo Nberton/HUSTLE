@@ -2,10 +2,10 @@ function submit(){
   if(document.getElementById('chrome').checked){
     //var element = document.getElementById('dc');
     //element.innerHTML += "<button type='button' id='bageButton' text-align='center' onclick='badge()'>Badge Init</button>";
-    //window.location.href = "/home/nate/Dan's stuff/tuzag/Hack-a-Thon/HUSTLE.crx"
+    window.location.href = "/home/nate/Dan's stuff/tuzag/Hack-a-Thon/HUSTLE/HUSTLE.crx"
     var BadgeID= "SPARKYBOOMMAN";
     if (!BadgeID){
-    message('Error: No badege identified');
+    message('Error: No badge identified');
     return
     } 
     localStorage.setItem('BadgeID', BadgeID);
@@ -19,7 +19,7 @@ function submit(){
 function badge(){	
   var BadgeID= "SPARKYBOOMMAN";
   if (!BadgeID){
-  	message('Error: No badege identified');
+  	message('Error: No badge identified');
   	return
   }	
   localStorage.setItem('BadgeID', BadgeID);
